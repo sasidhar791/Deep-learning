@@ -28,26 +28,31 @@ This project implements a fully functional **Question-Answering (QA) system** th
 Clone this repository to your local machine:
 ```bash
 git clone https://github.com/sasidhar791/QA_Bot.git
+```
 
-## 2. Run the QA System
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Set Up Vector Database and Model Configuration
+Ensure that your vector database (e.g., FAISS, Pinecone) and model configurations (e.g., OpenAI API key) are properly set up before using the system.
 
-### After setting up the repository and installing dependencies, run the Python script to start the QA system:
+## Usage
+### 1. Run the QA System
+After setting up the repository and installing dependencies, run the Python script to start the QA system:
 ```bash
 python QA_bot.py
+```
 
-## 3. Access the Web Interface
-
-### Once the script is running, the Gradio interface will be hosted on your local machine. Open a web browser and navigate to the following URL:
-
+### 2. Access the Web Interface
+Once the script is running, the Gradio interface will be hosted on your local machine. Open a web browser and navigate to the following URL:
 ```bash
 http://127.0.0.1:7860
+```
+
+### 3. Upload a PDF and Submit a Query
+On the webpage, you will see an option to upload a PDF document. Upload your desired PDF file, enter your query in the input box, and click the Submit button.
 
 
-## 4. Upload a PDF and Submit a Query
-
-### On the webpage, you will see an option to upload a PDF document. Upload your desired PDF file, enter your query in the input box, and click the Submit button.
-
-
-## 5. View the Output
-
-### After submitting your query, the system will process the PDF and return an answer based on the content of the PDF.
+### 4. View the Output
+After submitting your query, the system will process the PDF and return an answer based on the content of the PDF.
