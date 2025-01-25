@@ -63,16 +63,6 @@ After submitting your query, the system will process the PDF and return an answe
 
 
 
-## Troubleshooting
-
-- **Issue**: Unable to connect to the vector database.
-  - **Solution**: Ensure that your vector database (e.g., FAISS, Pinecone) is running and configured correctly. Check your database URL or configuration settings in `config.py`.
-
-- **Issue**: OpenAI API key error.
-  - **Solution**: Make sure you have a valid OpenAI API key and it is correctly set in your environment or `config.py`.
-
-
-
 ## Frequently Asked Questions (FAQs)
 
 - **How do I change the model used for answer generation?**
