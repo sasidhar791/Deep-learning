@@ -63,11 +63,6 @@ After submitting your query, the system will process the PDF and return an answe
 
 
 
-## Contributing
-We welcome contributions to this project! If you'd like to contribute, please feel free to fork the repository, submit issues, or create pull requests.
-
-
-
 ## Troubleshooting
 
 - **Issue**: Unable to connect to the vector database.
@@ -85,3 +80,7 @@ We welcome contributions to this project! If you'd like to contribute, please fe
 
 - **Can I use a custom vector database?**
   - Yes, you can integrate other vector databases by modifying the `retriever.py` to support the custom database.
+
+
+## Contributing
+We welcome contributions to this project! If you'd like to contribute, please feel free to fork the repository, submit issues, or create pull requests.
