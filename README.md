@@ -56,3 +56,7 @@ On the webpage, you will see an option to upload a PDF document. Upload your des
 
 ### 4. View the Output
 After submitting your query, the system will process the PDF and return an answer based on the content of the PDF.
+
+## Contributing
+We welcome contributions to this project! If you'd like to contribute, please feel free to fork the repository, submit issues, or create pull requests.
+
