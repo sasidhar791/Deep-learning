@@ -22,6 +22,8 @@ This project implements a fully functional **Question-Answering (QA) system** th
 - **Retriever**: A retriever component based on the vector database that performs nearest-neighbor search to find relevant chunks.
 - **Gradio**: A Python library used to create user-friendly interfaces for machine learning applications.
 
+
+
 ## Installation
 
 ### 1. Clone the Repository
@@ -36,6 +38,8 @@ pip install -r requirements.txt
 ```
 ### 3. Set Up Vector Database and Model Configuration
 Ensure that your vector database (e.g., FAISS, Pinecone) and model configurations (e.g., OpenAI API key) are properly set up before using the system.
+
+
 
 ## Usage
 ### 1. Run the QA System
@@ -57,6 +61,27 @@ On the webpage, you will see an option to upload a PDF document. Upload your des
 ### 4. View the Output
 After submitting your query, the system will process the PDF and return an answer based on the content of the PDF.
 
+
+
 ## Contributing
 We welcome contributions to this project! If you'd like to contribute, please feel free to fork the repository, submit issues, or create pull requests.
 
+
+
+## Troubleshooting
+
+- **Issue**: Unable to connect to the vector database.
+  - **Solution**: Ensure that your vector database (e.g., FAISS, Pinecone) is running and configured correctly. Check your database URL or configuration settings in `config.py`.
+
+- **Issue**: OpenAI API key error.
+  - **Solution**: Make sure you have a valid OpenAI API key and it is correctly set in your environment or `config.py`.
+
+
+
+## Frequently Asked Questions (FAQs)
+
+- **How do I change the model used for answer generation?**
+  - You can modify the model settings in the `QA_bot.py` file. Look for the `model` parameter and change it to a different LLM (like GPT-3 or a custom model).
+
+- **Can I use a custom vector database?**
+  - Yes, you can integrate other vector databases by modifying the `retriever.py` to support the custom database.
